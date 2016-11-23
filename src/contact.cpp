@@ -27,6 +27,7 @@ bool Contact::isEmpty() const
         lastName.empty() &&
         phoneNumber.empty() && 
         address.empty() && 
+        pincode.empty() &&
         email.empty())
     {
         return true;

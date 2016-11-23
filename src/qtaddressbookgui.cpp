@@ -42,7 +42,11 @@ void QtAddressBookGUI::createWidgets()
     list->setSizePolicy(QSizePolicy::Minimum, QSizePolicy::Minimum);
 
     newContactButton = new QPushButton("New Contact");
+    newContactButton->setAutoDefault(true);
+    newContactButton->setDefault(true);
     editContactButton = new QPushButton("Edit");
+editContactButton->setAutoDefault(false);
+editContactButton->setDefault(true);
     deleteContactButton = new QPushButton("Delete");
 
     QHBoxLayout *buttonLayout = new QHBoxLayout();

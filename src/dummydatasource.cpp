@@ -28,6 +28,7 @@ DummyDataSource::DummyDataSource()
         c.lastName = temp;
         c.phoneNumber = temp;
         c.address = temp;
+        c.pincode = temp;
         c.email = temp;
     
         addContact(c);

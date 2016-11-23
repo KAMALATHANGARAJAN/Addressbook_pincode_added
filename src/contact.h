@@ -26,9 +26,10 @@ class Contact
         std::string lastName;
         std::string phoneNumber;
         std::string address;
+        std::string pincode;
         std::string email;
 
-        Contact():id(0), firstName(), lastName(), phoneNumber(), email(){ }
+        Contact():id(0), firstName(), lastName(), phoneNumber(), pincode(), email(){ }
         bool isValidToAdd() const;
         bool isEmpty() const;
 

@@ -32,6 +32,7 @@ void QtAddContactDialog::accept()
     outContact.firstName = contactForm->firstNameField->text().toStdString();
     outContact.lastName = contactForm->lastNameField->text().toStdString();
     outContact.address = contactForm->addressField->text().toStdString();
+    outContact.pincode = contactForm->pincodeField->text().toStdString();
     outContact.phoneNumber = contactForm->phoneNumberField->text().toStdString();
     outContact.email = contactForm->emailField->text().toStdString();
 
